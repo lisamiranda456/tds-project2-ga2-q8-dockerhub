@@ -17,7 +17,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/tds-project2:latest
+        tags: lisamiranda456/tdsga:latest
 name: Build and Push Docker Image
 'on':
   push:
